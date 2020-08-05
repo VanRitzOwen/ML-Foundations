@@ -1,0 +1,40 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.MultiScheme -X 0 -S 1 -B "weka.classifiers.rules.ZeroR "
+Relation:     winequality-white
+Instances:    4898
+Attributes:   12
+              fixed acidity
+              volatile acidity
+              citric acid
+              residual sugar
+              chlorides
+              free sulfur dioxide
+              total sulfur dioxide
+              density
+              pH
+              sulphates
+              alcohol
+              quality
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+MultiScheme selection using error on training data from the following:
+	weka.classifiers.rules.ZeroR
+Selected scheme: weka.classifiers.rules.ZeroR
+
+ZeroR predicts class value: 5.87790935075541
+
+Time taken to build model: 0.01 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                 -0.0592
+Mean absolute error                      0.6711
+Root mean squared error                  0.8859
+Relative absolute error                100      %
+Root relative squared error            100      %
+Total Number of Instances             4898
+

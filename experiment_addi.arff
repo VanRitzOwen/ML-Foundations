@@ -1,0 +1,153 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.AdditiveRegression -S 1.0 -I 10 -W weka.classifiers.trees.DecisionStump
+Relation:     winequality-white
+Instances:    4898
+Attributes:   12
+              fixed acidity
+              volatile acidity
+              citric acid
+              residual sugar
+              chlorides
+              free sulfur dioxide
+              total sulfur dioxide
+              density
+              pH
+              sulphates
+              alcohol
+              quality
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Additive Regression
+
+Initial prediction: 5.87790935075541
+
+Base classifier weka.classifiers.trees.DecisionStump
+
+10 models generated.
+
+Model number 0
+
+Decision Stump
+
+Classifications
+
+alcohol <= 10.850000000000001 : -0.272398815909396
+alcohol > 10.850000000000001 : 0.46351370495338573
+alcohol is missing : 3.0881336234163195E-16
+
+
+Model number 1
+
+Decision Stump
+
+Classifications
+
+free sulfur dioxide <= 11.75 : -0.7389455808622128
+free sulfur dioxide > 11.75 : 0.04294153407905081
+free sulfur dioxide is missing : -1.8485281360602445E-15
+
+
+Model number 2
+
+Decision Stump
+
+Classifications
+
+volatile acidity <= 0.2275 : 0.21678683845832544
+volatile acidity > 0.2275 : -0.1001749331144728
+volatile acidity is missing : 8.092637308427858E-16
+
+
+Model number 3
+
+Decision Stump
+
+Classifications
+
+alcohol <= 12.08333333333335 : -0.05208069601373277
+alcohol > 12.08333333333335 : 0.30770950014319937
+alcohol is missing : 3.6664786718710127E-16
+
+
+Model number 4
+
+Decision Stump
+
+Classifications
+
+volatile acidity <= 0.535 : 0.016033580877875254
+volatile acidity > 0.535 : -0.5975014124020556
+volatile acidity is missing : 3.8126799480823693E-16
+
+
+Model number 5
+
+Decision Stump
+
+Classifications
+
+free sulfur dioxide <= 115.25 : 0.003183980614953407
+free sulfur dioxide > 115.25 : -1.9462081508900853
+free sulfur dioxide is missing : 2.992252786459104E-16
+
+
+Model number 6
+
+Decision Stump
+
+Classifications
+
+pH <= 3.325 : -0.03700144661502725
+pH > 3.325 : 0.1782397475897265
+pH is missing : -1.7004681769575182E-16
+
+
+Model number 7
+
+Decision Stump
+
+Classifications
+
+residual sugar <= 2.025 : -0.11958896411471726
+residual sugar > 2.025 : 0.052790890574476924
+residual sugar is missing : -6.736138800696284E-16
+
+
+Model number 8
+
+Decision Stump
+
+Classifications
+
+citric acid <= 0.235 : -0.17516809441379153
+citric acid > 0.235 : 0.027566623553778407
+citric acid is missing : 1.0372810545711803E-15
+
+
+Model number 9
+
+Decision Stump
+
+Classifications
+
+alcohol <= 10.850000000000001 : 0.04647314130280923
+alcohol > 10.850000000000001 : -0.07907867673423491
+alcohol is missing : -2.8509603030972855E-16
+
+
+
+Time taken to build model: 0.2 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                  0.5328
+Mean absolute error                      0.6077
+Root mean squared error                  0.7507
+Relative absolute error                 90.5551 %
+Root relative squared error             84.7363 %
+Total Number of Instances             4898
+

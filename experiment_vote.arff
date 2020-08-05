@@ -1,0 +1,43 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.Vote -S 1 -B "weka.classifiers.rules.ZeroR " -R AVG
+Relation:     winequality-white
+Instances:    4898
+Attributes:   12
+              fixed acidity
+              volatile acidity
+              citric acid
+              residual sugar
+              chlorides
+              free sulfur dioxide
+              total sulfur dioxide
+              density
+              pH
+              sulphates
+              alcohol
+              quality
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Vote combines the probability distributions of these base learners:
+	weka.classifiers.rules.ZeroR
+using the 'Average' combination rule
+
+All the models:
+
+ZeroR predicts class value: 5.87790935075541
+
+
+Time taken to build model: 0 seconds
+
+=== Cross-validation ===
+=== Summary ===
+
+Correlation coefficient                 -0.0592
+Mean absolute error                      0.6711
+Root mean squared error                  0.8859
+Relative absolute error                100      %
+Root relative squared error            100      %
+Total Number of Instances             4898
+
